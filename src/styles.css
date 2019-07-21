@@ -1,0 +1,78 @@
+/* You can add global styles to this file, and also import other style files */
+
+html
+{
+	height: calc( 100vh - 17px);
+}
+
+body
+{
+	background-color: #f3f3f2;
+	height:calc(100vh-40px);
+}
+
+body, 
+#mainContent,
+#previewWindow,
+#settingWindow
+{
+	height: 100%;
+}
+
+#mainContent
+{
+	font-family: arial;
+	display: table;
+	width: 100%;
+}
+
+#previewWindow
+{
+	width: 100%;
+	display: table-cell;
+	background-color: #f6bfbc;
+	position: relative;
+}
+
+#previewWindow .aroundPreviewText
+{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	right: 50%;
+	transform: translateX(50%);
+	
+	font-size: 32px;
+	text-align: center;
+}
+
+/* Setting CSS */
+
+.setting-form-w0 input
+{
+	width: 290px;
+}
+
+#settingWindow
+{
+	width: 300px;
+	background-color: #bbc8e6;
+	display: inline-block;
+	float: right;
+}
+
+#settingForm
+{
+	margin: 5px;
+}
+
+.applyButton-area
+{
+	width: 100%;
+	margin: 20px auto;
+	text-align: center;
+}
+
+#applyButton
+{
+}

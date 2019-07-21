@@ -1,0 +1,19 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div id="mainContent">
+	<div id="previewWindow">
+		<div class="aroundPreviewText">
+			{{ previewText }}
+		</div>
+	</div>
+	<div id="settingWindow">
+		<div class="settingForm">
+			<h3>Setting</h3>
+			<div>Test Words:</div>
+			<div class="form-text setting-form-w0">
+				<input type="text" value="{{previewText}}" #inputText (keyup.enter)="changeText(inputText.value)">
+			</div>
+		</div>
+	</div>
+</div>
+
+<router-outlet></router-outlet>
